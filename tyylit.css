@@ -102,25 +102,23 @@ footer{
 }
 
 .navigointivalikko{
+ 
     width: 100%;
     display: inline-block;
     background-color: var(--bg-dark);
     color: var(--teksti-vaalea);
-    padding: 20px 0;
     text-align: left;
-    font-size: 1.2em;
 
 }
 
 .navigointivalikko a{
-    width: 100%;
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    background-color: var(--bg-dark);
-    color: var(--teksti-vaalea);
-    border: none;
-    padding: 20px 10px;
-    margin:0;
+    
 }
 
 .navigointivalikko a:hover{
@@ -150,4 +148,13 @@ tr:hover {
 
 .keskitetty{
     text-align: center;
+}
+
+.logo {
+    float: right;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
 }
