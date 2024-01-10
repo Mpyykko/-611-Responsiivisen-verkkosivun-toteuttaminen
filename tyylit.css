@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --teksti: #333333;
+    --tausta: #eeeeee;
+    --teksti-vaalea: #eeeeee;
+    --bg-dark:#444444;
+    --highlight: #87af19;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--tausta);
+    color: var(--teksti);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    flex: 1;
+
+
+}
+
+section{
+    max-width: 900px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.showcase{
+    font-size: 1.2em;
+    padding-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-image: url(kuvat/koodi5.jpg);
+    background-size: cover;
+    
+
+}
+
+.showcase > div {
+    color: var(--teksti-vaalea);
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.ingressi{
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.6em;
+
+}
+
+.ingressi::first-letter{
+    float: left;
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: bold;
+    margin-right: 0.1em;
+}
+
+.tutkinnonosat a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    border: 1px solid var(--teksti);
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+
+
+}
+
+.tutkinnonosat a:hover{
+    color: var(--teksti);
+    background-color: var(--highlight);
+}
+
+footer{
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    padding: 40px 0;
+    text-align: center;
+    
+}
+
+.navigointivalikko{
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    padding: 20px 0;
+    text-align: right;
+    font-size: 1.2em;
+
+}
+
+.navigointivalikko a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    border: none;
+    padding: 20px 10px;
+    margin:0;
+ 
+
+}
+
+.navigointivalikko a:hover{
+    color: var(--teksti);
+    background-color: var(--highlight);
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #bcb9b9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.keskitetty{
+    text-align: center;
+}
