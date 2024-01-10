@@ -102,10 +102,12 @@ footer{
 }
 
 .navigointivalikko{
+    width: 100%;
+    display: inline-block;
     background-color: var(--bg-dark);
     color: var(--teksti-vaalea);
     padding: 20px 0;
-    text-align: right;
+    text-align: left;
     font-size: 1.2em;
 
 }
@@ -119,8 +121,6 @@ footer{
     border: none;
     padding: 20px 10px;
     margin:0;
- 
-
 }
 
 .navigointivalikko a:hover{
