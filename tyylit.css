@@ -18,17 +18,20 @@ body {
     font-family: 'Roboto',sans-serif;
     background-color: var(--tausta);
     color: var(--teksti);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height:100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: space-between;
+   
 
 }
 
 main{
     font-size: 1.3em;
     line-height: 1.3em;
-    flex: 1;
-
 
 }
 
@@ -97,8 +100,10 @@ footer{
     background-color: var(--bg-dark);
     color: var(--teksti-vaalea);
     padding: 40px 0;
-    text-align: center;
-    
+    text-align: center;  
+    position: bottom;
+    bottom: 0;
+    width: 100%;
 }
 
 .navigointivalikko{
@@ -151,7 +156,7 @@ tr:hover {
 }
 
 .logo {
-    float: right;
+    align-items: center;
 }
 
 .logo img {
