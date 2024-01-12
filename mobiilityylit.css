@@ -1,8 +1,9 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
     header, 
     header > div.logo,
     header > nav,
-    header nav a{
+    header nav a
+    {
     
         display: block;
         float: none;
@@ -21,8 +22,9 @@
         width: 100%;
         clear: both;
         padding: 0;
-        
-
+    }
+    main{
+        margin-top: 130px;
     }
 
     .v-center, .h-right{
@@ -34,9 +36,14 @@
 
    
     
-    th, td {
+    th, td{
         display:block;
         width: 100%;
      
     }
+
+    .showcase {
+        height: auto;
+    }
+   
 }
