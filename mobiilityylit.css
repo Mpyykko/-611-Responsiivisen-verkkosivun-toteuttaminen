@@ -33,7 +33,9 @@
         transform: none;
         
     }
-
+    .taustavari{
+        background-color: #bcb9b9;
+    }
    
     
     th, td{
@@ -45,5 +47,8 @@
     .showcase {
         height: auto;
     }
-   
+   .piilotettu-mobiilissa{
+    display: none;
+
+   }
 }
